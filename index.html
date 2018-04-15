@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <script src="./node_modules/vue/dist/vue.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
-    
+    <script src="./index.js"></script>
     <title>Escritório Sales Furtado</title>
 </head>
-<body>
+<body class="has-navbar-fixed-top">
 
-        <nav class="navbar is-link">
+        <nav class="navbar is-link is-fixed-top">
                 <div class="navbar-brand">
-                  <a class="navbar-item" href="https://bulma.io">
-                    <img src="./imgs/logo-cortada.jpg" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+                  <a class="navbar-item" href="#HomePage">
+                    <img src="./imgs/trueBrand.png" width="75" height="140">
                   </a>
                 </div>
               
@@ -40,16 +40,10 @@
                   </div>
               
                   <div class="navbar-end">
-                    <div class="navbar-item">
-                      <div class="field is-grouped">
-                        <p class="control">
-                          <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-                            <img src="./imgs/facebook-button.png" alt="facebook button">
+                          <a class="navbar-item" href="https://www.facebook.com/SalesFurtadoAdvogados/">
+                            <img src="./imgs/facebook-button.png" width="50" height="100%" alt="facebook button">
                           </a>
-                        </p>
-                      </div>
                     </div>
-                  </div>
                 </div>
               </nav>
 
@@ -113,7 +107,7 @@
               <div class="tile is-parent is-vertical">
                 <article class="tile is-child notification">
                   <p class="title">Direito Civil</p>
-                  <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p class="subtitle"></p>
                 </article>
                 <article class="tile is-child notification">
                   <p class="title">Direito Criminal</p>
@@ -178,39 +172,17 @@
             
             <div class="field">
               <label class="label">Telefone</label>
-              <div class="control has-icons-left has-icons-right">
-                <input class="input is-success" type="text" placeholder="(XX)9XXXX-XXXX">
+              <div class="control">
+                <input class="input" type="text" placeholder="(XX)9XXXX-XXXX">
               </div>
             </div>
             
             <div class="field">
               <label class="label">Email</label>
-              <div class="control has-icons-left has-icons-right">
-                <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-                <span class="icon is-small is-left">
-                  <i class="fas fa-envelope"></i>
-                </span>
-                <span class="icon is-small is-right">
-                  <i class="fas fa-exclamation-triangle"></i>
-                </span>
-              </div>
-              <p class="help is-danger">This email is invalid</p>
-            </div>
-            
-            <div class="field">
-              <label class="label">Assunto</label>
               <div class="control">
-                <div class="select">
-                  <select>
-                    <option>Selecione um Assunto</option>
-                    <option>Direito Civil</option>
-                    <option>Direito Criminal</option>
-                    <option>Direito de Família</option>
-                    <option>Direito Trabalhista</option>
-                  </select>
-                </div>
+                <input class="input" type="email" placeholder="Insira seu email">
               </div>
-            </div>
+              </div>
             
             <div class="field">
               <label class="label">Mensagem</label>
@@ -227,15 +199,14 @@
                 <button class="button is-text">Cancelar</button>
               </div>
             </div>
-
-
     </div>
 
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
         <small>
-            Criado por <strong> Lennon S Furtado </strong>
+            Criado por <strong> IASAI Tecnologies - Lennon S Furtado </strong>
+            <p>Direitos Reservados à IASAI tecnologies - 2018</p>
         </small>
     </div>
   </div>
