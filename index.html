@@ -4,8 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="style.css">
     <script src="./node_modules/vue/dist/vue.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    
     <title>Escritório Sales Furtado</title>
 </head>
 <body>
@@ -13,33 +15,25 @@
         <nav class="navbar is-link">
                 <div class="navbar-brand">
                   <a class="navbar-item" href="https://bulma.io">
-                    <img src="./imgs/brand 2.jpg" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+                    <img src="./imgs/logo-cortada.jpg" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
                   </a>
-                  <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
                 </div>
               
                 <div id="navbarExampleTransparentExample" class="navbar-menu">
                   <div class="navbar-start">
-                    <a class="navbar-item" href="https://bulma.io/">
+                    <a class="navbar-item" href="#HomePage">
                       Home
                     </a>
-                    <a class="navbar-item" href="/documentation/overview/start/">
-                        Institucional
-                    </a>
-                    <a class="navbar-item" href="/documentation/overview/start/">
+                    <a class="navbar-item" href="#QuemSomosPage">
                         Equipe
                     </a>
-                    <a class="navbar-item" href="/documentation/overview/start/">
+                    <a class="navbar-item" href="#AreasPage">
                         Área de Atuação
                     </a>
-                    <a class="navbar-item" href="/documentation/overview/start/">
+                    <a class="navbar-item" href="#GaleriaPage">
                         Galeria
                     </a>
-                    <a class="navbar-item" href="/documentation/overview/start/">
+                    <a class="navbar-item" href="#ContatosPage">
                         Contatos
                     </a>
                     </div>
@@ -50,12 +44,7 @@
                       <div class="field is-grouped">
                         <p class="control">
                           <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-                            <span class="icon">
-                              <i class="fab fa-facebook"></i>
-                            </span>
-                            <span>
-                              Facebook
-                            </span>
+                            <img src="./imgs/facebook-button.png" alt="facebook button">
                           </a>
                         </p>
                       </div>
@@ -64,10 +53,191 @@
                 </div>
               </nav>
 
+
+
+              
+
+            <div id="HomePage" class="has-text-centered">
+                <figure class="image is-1331x1200">
+                    <img src="./imgs/Balança-da-justiça.jpg">
+                  </figure>
+                <section class="hero is-link has-text-centered">
+                    <div class="hero-body">
+                      <div class="container">
+                        <h1 class="title">
+                            ADVOCACIA EFICIENTE
+                        </h1>
+                        <h2 class="subtitle">
+                            Compromisso e agilidade na resolução de casos nas mais diversas áreas do direito
+                        </h2>
+                      </div>
+                    </div>
+                  </section>
+            </div>
+
+            <div id="QuemSomosPage">
+                <div class="columns">
+                    <div class="column">
+                        <figure class="image is-512x512">
+                            <img src="./imgs/advertise2.jpg">
+                          </figure>
+                    </div>
+                    <div id="QuemSomosPageText" class="column">
+                      <h2 class="has-text-centered title">QUEM SOMOS</h2>
+                      <div id="QuemSomosPageSubtitle">
+                          <p class="subtitle">O Complexo Jurídico SalesFurtado está no mercado há mais de vinte anos e é composto por advogados atuantes em diversas áreas que se reuniram para desempenhar suas atividades de forma autônoma entre si, por isso hoje é um dos mais conhecidos e respeitados escritórios de advocacia do Estado do Pará, destacando-se na defesa dos interesses sociais, zelando pela completa satisfação do cliente sem abrir mão da ética e da postura profissional diante da sociedade. Compreendendo todas as áreas do direito, com profissionais habilitados a atuar nas mais variadas causas.</p>
+                      </div>
+                      </div>
+                  </div>
+            </div>
+
 </body>
-<footer>
-    <small class="has-text-center">
-        Created by <strong> Lennon S Furtado </strong>
-    </small>
+
+<div id="AreasPage">
+    <section class="hero is-link has-text-centered">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+                ÁREAS DE ATUAÇÃO
+            </h1>
+            <h2 class="subtitle">
+                Transparência, ética e compromisso no tratamento das soluções adequadas às questões dos clientes nos diversos campos do Direito. 
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <div class="tile is-ancestor">
+          <div class="tile is-vertical is-6">
+            <div class="tile">
+              <div class="tile is-parent is-vertical">
+                <article class="tile is-child notification">
+                  <p class="title">Direito Civil</p>
+                  <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+                <article class="tile is-child notification">
+                  <p class="title">Direito Criminal</p>
+                  <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+              </div>
+            </div> 
+          </div>
+          <div class="tile is-vertical is-6">
+              <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child notification">
+                    <p class="title">Direito de Familía</p>
+                    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </article>
+                  <article class="tile is-child notification">
+                    <p class="title">Direito Trabalhista</p>
+                    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </article>
+                </div>
+              </div> 
+            </div>
+          
+        </div>
+    </div>
+
+    <div id="GaleriaPage">
+        <section class="hero is-link has-text-centered">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                    Galeria
+                </h1>
+                <h2 class="subtitle">
+                    Conheça um pouco mais de nossas instalações. 
+                </h2>
+              </div>
+            </div>
+          </section>
+          <figure class="image is-960x960">
+              <img src="./imgs/advertise1.jpg">
+            </figure>
+    </div>
+
+    <div id="ContatosPage">
+        <section class="hero is-link has-text-centered">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title">
+                    Contate-nos
+                </h1>
+              </div>
+            </div>
+          </section>
+
+          <div class="field">
+              <label class="label">Nome</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Insira seu nome">
+              </div>
+            </div>
+            
+            <div class="field">
+              <label class="label">Telefone</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input is-success" type="text" placeholder="(XX)9XXXX-XXXX">
+              </div>
+            </div>
+            
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </span>
+              </div>
+              <p class="help is-danger">This email is invalid</p>
+            </div>
+            
+            <div class="field">
+              <label class="label">Assunto</label>
+              <div class="control">
+                <div class="select">
+                  <select>
+                    <option>Selecione um Assunto</option>
+                    <option>Direito Civil</option>
+                    <option>Direito Criminal</option>
+                    <option>Direito de Família</option>
+                    <option>Direito Trabalhista</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            
+            <div class="field">
+              <label class="label">Mensagem</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Informe sua mensagem"></textarea>
+              </div>
+            </div>
+            
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link">Enviar</button>
+              </div>
+              <div class="control">
+                <button class="button is-text">Cancelar</button>
+              </div>
+            </div>
+
+
+    </div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+        <small>
+            Criado por <strong> Lennon S Furtado </strong>
+        </small>
+    </div>
+  </div>
 </footer>
 </html>
