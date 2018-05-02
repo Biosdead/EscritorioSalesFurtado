@@ -5,9 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
+  <link rel="stylesheet" href="./node_modules/bulma-carousel/dist/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="./imgs/brand.jpg">
   <script src="./node_modules/vue/dist/vue.min.js"></script>
+  <script src="./node_modules/bulma-carousel/dist/bulma-carousel.min.js"></script>
   <script src="./navbar.js"></script>
   <title>Escritório Sales Furtado</title>
 </head>
@@ -110,36 +113,51 @@
     </section>
 
     <div class="tile is-ancestor">
-      <div class="tile is-vertical is-6">
+      <div class="tile is-vertical">
         <div class="tile">
           <div class="tile is-parent is-vertical">
             <article class="tile is-child notification">
               <p class="title">Direito Civil</p>
-              <p class="subtitle"></p>
+              <p class="subtitle">Atuamos na área Cível, tanto para pessoas físicas como jurídicas, focado especialmente nas seguintes questões:
+</p>  
+                <ul> 
+                      <li>Responsabilidade Civil;</li>
+                      <li>Consumidor;</li>
+                      <li>Direito de Família;</li>
+                      <li>Contratos e Obrigações;</li>
+                      <li>Sucessões.</li>
+                  </ul> 
             </article>
             <article class="tile is-child notification">
               <p class="title">Direito Criminal</p>
-              <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p class="subtitle">Atuamos na área Penal, tanto para pessoas físicas como jurídicas, focado especialmente nas seguintes questões:
+</p>  
+                                <ul> 
+                                      <li>Crimes Hediondos;</li>
+                                      <li>Crimes de Saúde Pública;</li>
+                                      <li>Consumidor;</li>
+                                      <li>Defesa e orientação de clientes em inquéritos policiais e processos criminais;</li>
+                                      <li>Assessoria e assistência em questões criminais.</li>
+                                  </ul> 
             </article>
+            <article class="tile is-child notification">
+                <p class="title">Direito Trabalhista</p>
+                <p class="subtitle">Atuamos na área Trabalhista, tanto para pessoas físicas como jurídicas, em favor do reclamante e do reclamado. Dentre as principais atividades, podemos destacar:
+                </p>  
+                <ul> 
+                      <li>Ações Trabalhistas;</li>
+                      <li>Equiparação salarial;</li>
+                      <li>Indenizações;</li>
+                      <li>Horas extras;</li>
+                      <li>Danos morais;</li>
+                      <li>Acidente de trabalho;</li>
+                      <li>Assessoria trabalhista.</li>
+                  </ul>  
+               
+              </article>
           </div>
         </div>
       </div>
-      <div class="tile is-vertical is-6">
-        <div class="tile">
-          <div class="tile is-parent is-vertical">
-            <article class="tile is-child notification">
-              <p class="title">Direito de Familía</p>
-              <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </article>
-            <article class="tile is-child notification">
-              <p class="title">Direito Trabalhista</p>
-              <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </article>
-          </div>
-        </div>
-      </div>
-
-    </div>
   </div>
 
   <div id="GaleriaPage">
@@ -155,18 +173,52 @@
         </div>
       </div>
     </section>
-    <figure class="image is-960x960">
-      <img src="./imgs/advertise1.jpg">
-    </figure>
-  </div>
 
+
+    <div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true" data-delay="2500">
+        <div class='carousel-container'>
+          <div class='carousel-item has-background is-active'>
+            <img class="is-background" src="./imgs/SalaBreves.png" alt="" width="640" height="310" />
+            <div class="title">Polo Breves</div>
+          </div>
+          <div class='carousel-item has-background'>
+            <img class="is-background" src="./imgs/PlacaEscritorio.png" alt="" width="640" height="310" />
+            <div class="title">Escritório Sales Furtado</div>
+          </div>
+          <div class='carousel-item has-background'>
+            <img class="is-background" src="./imgs/advertise3.jpg"/>
+            <div class="title">Equipe</div>
+          </div>
+          <div class='carousel-item has-background'>
+            <img class="is-background" src="./imgs/PastaSalesFurtado.png" alt="" width="640" height="310" />
+            <div class="title">Soluções Ágeis</div>
+          </div>
+          <div class='carousel-item has-background'>
+              <img class="is-background" src="./imgs/advertise1.jpg" alt="" width="640" height="310" />
+              <div class="title">Polo Belém</div>
+            </div>
+        </div>
+        <div class="carousel-navigation is-overlay">
+          <div class="carousel-nav-left">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          </div>
+          <div class="carousel-nav-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
   <div id="ContatosPage">
-    <section class="hero is-link has-text-centered">
+    <section class="hero is-link is-bold has-text-centered">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
             Contate-nos ou tire suas dúvidas
           </h1>
+          <h3 class="subtitle">
+          <p>SALES FURTADO ADVOGADOS</p> 
+          <p>Polo Belém: Ed. Office Prime - Tv. Rui Barbosa, 897, Reduto, Belém-Pará.</p>
+          <p>Polo Breves: Avenida Rio Branco, 751, Altos, Centro, Breves-Pará</p> 
+</h3>
         </div>
       </div>
     </section>
@@ -222,6 +274,8 @@
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
+        <h5>"Porque o Senhor é justo, e ama a justiça; o seu rosto olha para os retos".</h5>
+        <p>Salmos 11.7</p>
       <small>
         Criado por
         <strong> IASAI Tecnologies - Lennon S Furtado </strong>

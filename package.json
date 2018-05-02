@@ -3,6 +3,8 @@
   "version": "",
   "dependencies": {
     "bulma": "^0.7.0",
+    "bulma-carousel": "^1.1.0",
+    "font-awesome": "^4.7.0",
     "vue": "^2.5.16"
   }
 }
